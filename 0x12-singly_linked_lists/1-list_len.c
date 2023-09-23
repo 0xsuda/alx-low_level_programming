@@ -1,11 +1,10 @@
 #include <stdlib.h>
 #include "lists.h"
-
 /**
- * list_len - returns elements number
- * @h: pointer 
- * Return: number of elements
- */
+* list_len - returns elements number
+* @h: pointer to the h
+* Return: number of elements
+*/
 size_t list_len(const list_t *h)
 {
 size_t n = 0;
